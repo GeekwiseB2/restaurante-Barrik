@@ -1,17 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, , initial-scale=1.0">
-	<title>Restaurante</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-	
-	<!-- javascript	 -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-</body>
-</html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, , initial-scale=1.0">
+		<title>Restaurante</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+
+	<body>
+
+		<div id="menu">
+			<div class="container">
+				<h1 class="menu-h1">Menu</h1>
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs nav-justified" role="tablist">
+					 <li role="presentation" class="active"><a href="#appetizers" aria-controls="appetizers" role="tab" data-toggle="tab">Appetizers</a></li>
+					 <li role="presentation"><a href="#lunch" aria-controls="lunchdinner" role="tab" data-toggle="tab">Lunch</a></li>
+					 <li role="presentation"><a href="#dinner" aria-controls="dinner" role="tab" data-toggle="tab">Dinner</a></li>
+					 <li role="presentation"><a href="#dessert" aria-controls="dessert" role="tab" data-toggle="tab">Dessert</a></li>
+				</ul>
+
+				 <!-- Tab panes -->
+				 <div class="tab-content">
+					 <div role="tabpanel" class="tab-pane active" id="appetizers">
+					 	<div class="row">
+					 		<div class="col-sm-3">
+					 			<img src="img/dip.jpg" alt="Dip and Breadsticks" class="thumbnail img-responsive">
+								<h3 class="app-heading text-centered">Appetizer 1</h3>
+								<p class="app-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis perspiciatis esse cum! Temporibus odit tempora, aut officiis consequuntur voluptatum quis laborum hic illum. Iusto nam voluptatum quam nihil, necessitatibus veritatis.</p>
+					 		</div>
+							<div class="col-sm-3">
+					 			<img src="img/eggplant.jpg" alt="Eggplant Appetizer" class="thumbnail img-responsive">
+								<h3 class="app-heading text-centered">Appetizer 2</h3>
+								<p class="app-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis perspiciatis esse cum! Temporibus odit tempora, aut officiis consequuntur voluptatum quis laborum hic illum. Iusto nam voluptatum quam nihil, necessitatibus veritatis.</p>
+					 		</div>
+							<div class="col-sm-3">
+					 			<img src="img/meat.jpg" alt="Meat Appetizer" class="thumbnail img-responsive">
+								<h3 class="app-heading text-centered">Appetizer 3</h3>
+								<p class="app-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis perspiciatis esse cum! Temporibus odit tempora, aut officiis consequuntur voluptatum quis laborum hic illum. Iusto nam voluptatum quam nihil, necessitatibus veritatis.</p>
+					 		</div>
+							<div class="col-sm-3">
+					 			<img src="img/bruschetta.jpg" alt="Bruschetta Appetizer" class="thumbnail img-responsive">
+								<h3 class="app-heading text-centered">Appetizer 4</h3>
+								<p class="app-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis perspiciatis esse cum! Temporibus odit tempora, aut officiis consequuntur voluptatum quis laborum hic illum. Iusto nam voluptatum quam nihil, necessitatibus veritatis.</p>
+					 		</div>
+					 	</div>
+					 </div>
+					 <div role="tabpanel" class="tab-pane" id="profile">...</div>
+					 <div role="tabpanel" class="tab-pane" id="messages">...</div>
+					 <div role="tabpanel" class="tab-pane" id="settings">...</div>
+				 </div>
+				</div>
+			</div>
+
+
+		<div id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="contact-h1">Contact Us</h1>
+						<p class="contact-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ipsa cum consequatur molestiae ea fugit a illo magnam, ab, officia illum eos! Vero, iusto obcaecati, neque sint culpa ratione non!</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<!-- Do not change the code! -->
+						<a id="foxyform_embed_link_762802" href="http://www.foxyform.com/">foxyform</a>
+						<script type="text/javascript">
+						(function(d, t){
+						   var g = d.createElement(t),
+						       s = d.getElementsByTagName(t)[0];
+						   g.src = "http://www.foxyform.com/js.php?id=762802&sec_hash=51c09ec13a1&width=350px";
+						   s.parentNode.insertBefore(g, s);
+						}(document, "script"));
+						</script>
+						<!-- Do not change the code! -->
+					</div>
+					<div class="col-sm-6">
+						<address>
+						  <strong>RESTAURANTE</strong><br>
+						  700 Van Ness Ave.<br>
+						  Fresno, CA 93721<br>
+						  <abbr title="Phone">P:</abbr> (123) 456-7890
+						</address>
+
+						<!-- GOOGLE MAP -->
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.608962956487!2d-119.78801758439401!3d36.73195157923746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e26d4340503%3A0xb32dda71cf0730a0!2sBitwise+South+Stadium!5e0!3m2!1sen!2sus!4v1458700064124" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- javascript	 -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+	</html>

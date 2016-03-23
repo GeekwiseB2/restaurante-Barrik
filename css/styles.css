@@ -1,0 +1,30 @@
+#menu {
+  min-height: 500px;
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+  padding-bottom: 75px;
+}
+#menu h1 {
+  font-family: "Lobster", cursive;
+  color: #fff;
+  text-align: center;
+  font-size: 80px;
+}
+#menu .tab-pane {
+  background-color: #fff;
+  padding: 15px;
+}
+.thumbnail {
+  width: 100%;
+}
+#contact {
+  min-height: 500px;
+  background-color: #f15a24;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+}
+#contact .contact-h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
