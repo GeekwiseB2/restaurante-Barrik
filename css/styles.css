@@ -1,26 +1,128 @@
+.container-fluid {
+  padding: 0;
+}
+.no-margin {
+  margin: 0;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+/* ----- CAROUSEL ----- */
+#first-slide {
+  background-image: url('../img/wood-2.jpg');
+  background-size: cover;
+  min-height: 600px;
+}
+#first-slide img {
+  max-width: 400px;
+  padding-top: 138px;
+}
+#second-slide {
+  background-image: url('../img/restaurant-2.jpg');
+  background-size: cover;
+  min-height: 600px;
+  background-position: center;
+}
+#second-slide .carousel-caption {
+  padding-bottom: 175px;
+}
+#second-slide button {
+  background-color: #f15a24;
+}
+#third-slide {
+  background-image: url('../img/farm-2.jpg');
+  background-size: cover;
+  min-height: 600px;
+  background-position: center;
+}
+#third-slide .carousel-caption {
+  padding-bottom: 175px;
+}
+#third-slide button {
+  background-color: #f15a24;
+} /* END CAROUSEL */
+
+/* ----- STORY SECTION ----- */
+#story {
+  min-height: 500px;
+}
+#story .container {
+  padding-top: 75px;
+}
+#story .story-h1 {
+  font-family: "Lobster", cursive;
+  font-size: 80px;
+  text-shadow: 2px 2px 5px #0a0a0a;
+  color: #f15a24;
+}
+#story .one-man {
+  font-family: "Raleway", serif;
+  font-weight: 700;
+}
+#story .year {
+  font-size: 180px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: rgba(149, 147, 147, 0.2);
+  position: absolute;
+  z-index: -1;
+} /* END STORY SECTION */
+
+
+/* ----- REV SECTION ----- */
+#review {
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+#review .review-text {
+  text-align: center;
+  background-color: rgba(0, 0, 0, .5);
+  margin-top: 150px;
+  padding: 20px;
+}
+.review-text h1 {
+  font-family: "Lobster", cursive;
+  color: #f15a24;
+  font-size: 80px;
+  text-shadow: 2px 2px 5px #0a0a0a;
+}
+.review-text p {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 24px;
+}
+
+/* ----- MENU SECTION ----- */
 #menu {
   min-height: 500px;
   background-image: url('../img/black_linen.png');
   background-size: cover;
   padding-bottom: 75px;
 }
-#menu h1 {
+#menu .menu-h1 {
   font-family: "Lobster", cursive;
   color: #fff;
-  text-align: center;
   font-size: 80px;
+  text-align: center;
 }
 #menu .tab-pane {
   background-color: #fff;
   padding: 15px;
 }
-.thumbnail {
-  width: 100%;
-}
+
+
+
 #contact {
   min-height: 500px;
   background-color: #f15a24;
-  color: #ffffff;
+  color: #fff;
   font-family: "Raleway", sans-serif;
 }
 #contact .contact-h1 {
